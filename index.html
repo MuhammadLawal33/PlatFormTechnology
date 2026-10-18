@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Platform Technology</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+</head>
+<body>
+
+  <!-- HEADER -->
+ <header class="main-header">
+  <div class="logo">
+    Platform <span>Technology</span>
+  </div>
+
+  <nav class="nav-icons">
+    <a href="index.html">
+      <i class="fa-solid fa-house"></i>
+      <span>Home</span>
+    </a>
+    <a href="#about">
+      <i class="fa-solid fa-user"></i>
+      <span>About</span>
+    </a>
+    <a href="#shop">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span>Shop</span>
+    </a>
+
+    <a href="ALL REPAIRS.HTML">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span>Repairs</span>
+    </a>
+
+    <a href="#contact">
+      <i class="fa-solid fa-phone"></i>
+      <span>Contact</span>
+    </a>
+  </nav>
+</header>
+
+
+
+  <!-- HERO SECTION -->
+ <section class="hero">
+  
+  <!-- Background Video -->
+  <video
+  class="hero-video"
+  autoplay
+  muted
+  loop
+  playsinline
+  preload="auto"
+  poster="img/hero-fallback.jpg">
+  <source src="img/platform hero video.mp4" type="video/mp4">
+</video>
+
+
+  <!-- Dark Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Hero Content -->
+  <div class="hero-content">
+    <h1 class="reveal">Welcome to PlatForm Technology</h1>
+    <p class="reveal"> 
+      We Sell All types of Mobile Phones Accessories, Repairs phones, laptops, Gaming Pc ETC.
+    </p>
+    <a href="#shop" class="btn">Explore Collection</a>
+  </div>
+
+</section>
+
+
+<h2 align="center" style="font-size: 2rem; color: #f7da00;">About us</h2>
+<br>
+  <!-- ABOUT SECTION -->
+ <section id="about" class="about">
+
+ <!-- About Image -->
+  <img 
+    src="img/gassir.jpeg" width="250px" height="250px"
+    alt="PlatForm
+    class="about-image reveal-left"
+  >
+
+
+
+
+  <div class="about-text reveal-right">
+    <h2>About PlatForm Technology</h2>
+    <p>
+      About Our Company
+
+We are a technology-focused business dedicated to providing high-quality mobile phones, laptops, electronics, gaming accessories, and reliable repair services. Our platform offers a wide range of products and solutions designed to meet the needs of tech enthusiasts, gamers, students, professionals, and everyday users.
+
+From the latest smartphones and laptops to gaming equipment, electronic accessories, and professional repair services, we are committed to delivering quality, affordability, and customer satisfaction. Our goal is to make technology accessible, convenient, and reliable for everyone by bringing the best products and services together in one place.
+
+Your Trusted Destination for Technology, Gaming, and Repairs.
+    </p>
+  </div>
+
+</section>
+
+
+ <!-- PRODUCTS SECTION (HOMEPAGE) -->
+<section id="shop" class="products">
+  <h2>Our Best sell & Repair</h2>
+  <div class="product-grid">
+
+    <div class="product reveal-zoom" data-category="Gaming pad">
+      <img src="img/Gaming pad 1.jpeg" alt="Gaming pad">
+      <h3>PS5 Gaming Controller</h3>
+      <p class="price">OMR 28.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="iphone repair
+    ">
+      <img src="img/Mobile phone repar 3.jpeg" alt="">
+      <h3>iphone 11pro max Repair</h3>
+      <p class="price">OMR</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Send Text</button>
+    </div>
+      
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/P9 Headset.jpeg" alt="Headset">
+      <h3>Premium P9 Headphone </h3>
+      <p class="price">OMR 10.500</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/Keyboard 1.jpeg" alt="Keyboard">
+      <h3>Keyboard With cord</h3>
+      <p class="price">OMR 3.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="shoes">
+      <img src="img/black mouse.jpeg" alt="black mouse">
+      <h3>Wireless black Mouse </h3>
+      <p class="price">OMR 3.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/Printer manchine 1.jpeg" alt="Printer Machine">
+      <h3>Canon Printer Machine</h3>
+      <p class="price">OMR 20</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/mOBILE TABLE STAND.jpeg" alt="TABLE stand">
+      <h3>Moblie black Table Stand</h3>
+      <p class="price">OMR 2.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/HP laptop.jpeg" alt="HP laptop">
+      <h3>HP laptop Window corei5</h3>
+      <p class="price">OMR 120.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/ipad 1.jpeg" alt="ipad">
+      <h3>Apple Ipad 7th Generation</h3>
+      <p class="price">OMR 55.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/universal powerstrip.jpeg" alt="powerstrip">
+      <h3>universal powerstrip</h3>
+      <p class="price">OMR 12.500</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/Wire earphone.jpeg" alt="wire earphone">
+      <h3>Apple Wireless earphone</h3>
+      <p class="price">OMR 5.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/wireless wifi.jpeg" alt="wifi">
+      <h3>Wireless white wifi 2026</h3>
+      <p class="price">OMR 25.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/dell desktop.jpeg" alt="Dell ">
+      <h3>Dell Desktop 24inch Corei5</h3>
+      <p class="price">OMR 95.500</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/cctv.jpeg" alt="CCTV">
+      <h3>Tapo Security Camera 2k</h3>
+      <p class="price">OMR 25.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/p9 headset 2.jpeg" alt="p9 headset">
+      <h3>Premium P9 Headphone</h3>
+      <p class="price">OMR 10.500</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/ANKER CAR CHARGER1.jpeg" alt="Anker CHARGER">
+      <h3>Anker 335 Car Charger</h3>
+      <p class="price">OMR 15.500</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/wireless keyboard.jpeg" alt="wireless">
+      <h3>Wireless black Keyboard</h3>
+      <p class="price">OMR 7.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+
+    <div class="product reveal-zoom" data-category="abaya">
+      <img src="img/Gaming pad 4.jpeg" alt="PS5">
+      <h3>PS5 Gaming pc  </h3>
+      <p class="price">OMR 25.000</p>
+      <button class="btn" onclick="sendToWhatsApp(this)">Buy Now</button>
+    </div>
+     
+  </div>
+
+  <!-- View More Button -->
+  <div style="margin-top: 40px;">
+    <a href="ANKER.html" class="btn">View All Products</a>
+  </div>
+</section>
+
+
+
+
+<h2 align="center" style="font-size: 1rem; color: #f7da00;">About Our Services</h2>
+<br>
+  <!-- ABOUT Our Services SECTION -->
+ <section id="about" class="about">
+
+ <!-- About Image -->
+  <img 
+    src="img/PS 4 & 5 REPAIR.jpeg" width="250px" height="250px"
+    alt="PlatForm
+    class="about-image reveal-left"
+  >
+<img 
+    src="img/lapttop.jpeg" width="250px" height="250px"
+    alt="PlatForm
+    class="about-image reveal-left"
+  >
+
+  <img 
+    src="img/phone repair 1.jpg" width="250px" height="250px"
+    alt="PlatForm
+    class="about-image reveal-left"
+  >
+<br><br>
+  <img 
+    src="img/PS REPAIR.jpeg" width="250px" height="250px"
+    alt="PlatForm
+    class="about-image reveal-left"
+  >
+
+<hr>
+
+  <div class="about-text reveal-right">
+    <h4>About Our services PlatForm Technology</h4><br><br>
+    <p>
+
+At PlatForm Technology, we specialize in repairing mobile phones, laptops,
+ PS4 and PS5 controllers, and other electronic devices. We also sell quality phone accessories, computer accessories, 
+ and gaming products at affordable prices.
+Your Trusted Partner for Technology, Gaming & Repairs.
+<br> في بلاتفورم تكنولوجي، نحن متخصصون في صيانة الهواتف المحمولة <br><br>
+  وأجهزة اللابتوب وأيدي تحكم بلايستيشن 
+  4 و5 ومختلف الأجهزة الإلكترونية. كما نوفر
+ إكسسوارات الهواتف والكمبيوتر ومنتجات الألعاب بجودة عالية وأسعار مناسبة.
+وجهتكم الموثوقة للتكنولوجيا والألعاب والصيانة.
+
+
+    </p>
+  </div>
+
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+  <h2 class="section-title">Get in Touch</h2>
+
+  <div class="contact-wrapper">
+
+    <!-- Left Side: Shop Information -->
+    <div class="contact-info reveal-left">
+
+      <h3>Visit Our Shop</h3>
+
+      <p>
+        J6P2+7Q3, 3353 Way,<br>
+        Seeb, Muscat, Oman
+      </p>
+
+      <p>
+        <a
+          href="https://maps.app.goo.gl/egsAYp62Rwc7eHA8A"
+          target="_blank"
+          rel="noopener noreferrer">
+          Get Directions to Our Shop
+        </a>
+      </p>
+
+    </div>
+
+    <!-- Right Side: Google Map -->
+    <div class="map-container reveal-right">
+
+      <iframe
+        src="https://maps.google.com/maps?q=J6P2%2B7Q3%2C%203353%20Way%2C%20Seeb%2C%20Muscat%2C%20Oman&output=embed"
+        width="100%"
+        height="400"
+        style="border: 0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="PlatForm Technology Shop Location">
+      </iframe>
+
+    </div>
+
+  </div>
+</section>
+
+    </div>
+  <!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-content">
+
+    <div class="footer-brand">
+      <h3>PlatForm Technology</h3>
+      <p>Premium phones, laptop and Gaming controller Accessories</p>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/platform.2021?psln=OGt1bjhmdjc0Mm03" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/share/18fLMV8bav/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="https://wa.me/+96877381538" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 platform Technology. All Rights Reserved.
+  </div>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/96877381538"
+   class="whatsapp-float"
+   target="_blank"
+   rel="noopener noreferrer"
+   title="Chat on WhatsApp">
+   <i class="fab fa-whatsapp"></i>
+</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
