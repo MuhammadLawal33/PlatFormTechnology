@@ -236,8 +236,9 @@ a {
 }
 
 .btn:hover {
-  background: #d6a98c;
+  background: #fff;
   transform: translateY(-2px);
+  border: 2px solid #000;
 }
 
 /* ===== HERO SECTION MOBILE FIX ===== */
@@ -342,7 +343,7 @@ a {
     display: block;
     width: 100%;
     max-width: 280px;
-    height: 280px;
+    height: 290px;
     object-fit: cover;
     object-position: center;
     margin: 0 auto 25px;
@@ -443,7 +444,7 @@ a {
 }
 
 .product p.price {
-  color: #f7da00;
+  color: #f70000;
   font-weight: 600;
   font-size: 1rem;
   margin-bottom: 15px;
@@ -847,7 +848,7 @@ a {
 
 .pagination .page {
   padding: 10px 18px;
-  border: 1px solid #b57b5c;;
+  border: 1px solid #000;;
   color: #000;
   border-radius: 5px;
   font-weight: 600;
@@ -855,12 +856,12 @@ a {
 }
 
 .pagination .page:hover {
-  background-color: #b57b5c;;
+  background-color: #fff;
   color: #000;
 }
 
 .pagination .active {
-  background-color: #b57b5c;;
+  background-color: #f7da00;;
   color: #000;
 }
 
