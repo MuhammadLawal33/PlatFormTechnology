@@ -345,7 +345,7 @@ a {
     max-width: 280px;
     height: 290px;
     object-fit: cover;
-    object-position: center;
+    object-position: center 20%;
     margin: 0 auto 25px;
     border-radius: 12px;
     box-sizing: border-box;
